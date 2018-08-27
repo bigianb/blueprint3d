@@ -5415,13 +5415,6 @@ declare module THREE {
         static create(constructorFunc: Function, getPointFunc: Function): Function;
     }
 
-    export var CurveUtils: {
-        tangentQuadraticBezier(t: number, p0: number, p1: number, p2: number): number;
-        tangentCubicBezier(t: number, p0: number, p1: number, p2: number, p3: number): number;
-        tangentSpline(t: number, p0: number, p1: number, p2: number, p3: number): number;
-        interpolate(p0: number, p1: number, p2: number, p3: number, t: number): number;
-    };
-
     export interface BoundingBox {
         minX: number;
         minY: number;

@@ -5,6 +5,7 @@ static
 build
 *.sublime-project
 *.log
+.tscache
 
 .vscode
 bin
